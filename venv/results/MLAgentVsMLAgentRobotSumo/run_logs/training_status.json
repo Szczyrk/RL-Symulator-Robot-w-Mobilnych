@@ -1,0 +1,64 @@
+{
+    "RobotSumo1": {
+        "checkpoints": [
+            {
+                "steps": 18466,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo\\RobotSumo1\\RobotSumo1-18466.onnx",
+                "reward": 0.26666666666666666,
+                "creation_time": 1611824586.955506
+            },
+            {
+                "steps": 499957,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo\\RobotSumo1\\RobotSumo1-499957.onnx",
+                "reward": -0.25,
+                "creation_time": 1611833037.6659715
+            },
+            {
+                "steps": 500085,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo\\RobotSumo1\\RobotSumo1-500085.onnx",
+                "reward": -0.25,
+                "creation_time": 1611833039.4912996
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500085,
+            "file_path": "results\\MLAgentVsMLAgentRobotSumo\\RobotSumo1.onnx",
+            "reward": -0.25,
+            "creation_time": 1611833039.4912996
+        }
+    },
+    "RobotSumo2": {
+        "checkpoints": [
+            {
+                "steps": 18438,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo\\RobotSumo2\\RobotSumo2-18438.onnx",
+                "reward": -0.16666666666666666,
+                "creation_time": 1611824587.1574674
+            },
+            {
+                "steps": 499993,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo\\RobotSumo2\\RobotSumo2-499993.onnx",
+                "reward": 0.0,
+                "creation_time": 1611833038.7694187
+            },
+            {
+                "steps": 500057,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo\\RobotSumo2\\RobotSumo2-500057.onnx",
+                "reward": 0.0,
+                "creation_time": 1611833039.605994
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500057,
+            "file_path": "results\\MLAgentVsMLAgentRobotSumo\\RobotSumo2.onnx",
+            "reward": 0.0,
+            "creation_time": 1611833039.605994
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

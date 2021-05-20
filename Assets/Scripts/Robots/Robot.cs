@@ -1,38 +1,24 @@
-﻿using UnityEngine;
-using System;
-using System.Reflection;
-using System.IO;
-using System.Threading;
+﻿using UnityEditor;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(TextVariablesRobot))]
-public class Robot : MonoBehaviour, IObjectDimensions {
+public class Robot : MonoBehaviour, IObjectDimensions, IRobot {
 
 
 	public bool 		manualControl;
-	public bool 		moveEnabled;
-	public float		stopDistance;	
+    public float		stopDistance;	
 	public Transform 	destination;	
 	public Vector3 		centerOfMassOffset;
-    public string nameWithoutSpace;
-    public string code;
 
     Rigidbody rigidbody;
     public MotorController[] 	motors;
     public Sensor[] sensors;
 	private Vector3 	_size;
-    private MethodInfo[] methods;
-    Thread program;
-    public TextVariablesRobot textVariables;
-    internal bool reload;
     private Vector3 startPostion;
     private Quaternion startRotation;
 
-    void OnDestroy()
-    {
-        if(program != null)
-            program.Abort();
-    }
+
+
 
     public Vector3 position {
 		get{ return transform.position; }
@@ -57,8 +43,8 @@ public class Robot : MonoBehaviour, IObjectDimensions {
 
 	
 	public void Reset() {
-        transform.position = startPostion;
-        transform.rotation = startRotation;
+        transform.localPosition = new Vector3(startPostion.x + UnityEngine.Random.Range(-0.25f,0.25f),startPostion.y, startPostion.z + UnityEngine.Random.Range(-0.25f,0.25f));
+        transform.localRotation = startRotation;
         
         if (rigidbody != null)
         {
@@ -76,80 +62,29 @@ public class Robot : MonoBehaviour, IObjectDimensions {
 
     private void Start()
     {
-        startPostion = transform.position;
+        startPostion = transform.localPosition;
         startRotation = transform.rotation;
         motors = GetComponentsInChildren<MotorController>();
+        for(int i = 0; i< motors.Length; i++)
+        {
+            motors[i].powerMotor = 0f;
+        }
         sensors = GetComponentsInChildren<Sensor>();
         rigidbody = GetComponent<Rigidbody>();
         if(!Simulation.robots.Contains(this))
             Simulation.robots.Add(this);
-        textVariables = GetComponent<TextVariablesRobot>();
-        nameWithoutSpace = this.name.Replace(" ", "_");
-        nameWithoutSpace = nameWithoutSpace.Replace("(", "");
-        nameWithoutSpace = nameWithoutSpace.Replace(")", "");
-        nameWithoutSpace = nameWithoutSpace.Replace(".", "");
-        nameWithoutSpace = nameWithoutSpace.Replace(",", "");
-        nameWithoutSpace = nameWithoutSpace.Replace("/", "");
-        nameWithoutSpace = nameWithoutSpace.Replace("{", "");
-        nameWithoutSpace = nameWithoutSpace.Replace("}", "");
-        nameWithoutSpace = "Robot_" + nameWithoutSpace;
-        code = nameWithoutSpace;
     }
-
-    public void initializationCode()
-    {
-        if (File.Exists(nameWithoutSpace + ".dll"))
-        {
-            var DLL = Assembly.LoadFile(nameWithoutSpace + ".dll");
-            Type type = DLL.GetType(nameWithoutSpace);
-            methods = type.GetMethods();
-        }
-        else
-        {
-            Stop();
-            StopSensor();
-            Debug.Log("No code for " + name);
-        }
-
-    }
-
-    public void UnInitializationCode()
-    {
-        methods = null;
-    }
-
-    public void StartingRobot()
-    {
-        if (program == null)
-        {
-            if (!File.Exists(code+".txt"))
-            {
-                Debug.Log("Robot " + this.name + " has't code. Please create it!");
-            }
-            else
-                Compiler.instance.button1_Click();
-        }
-    }
+    
+    
 
     public void StartRobot()
     {
-        if (methods != null)
-        {
-            program = new Thread(() =>
-            {
-                methods[0].Invoke(this, new object[] { this });
-            });
-            StartSensor();
-            program.Start();
-        }
-        else
-            Debug.Log("Robot " + name +" hasn't got program!");
+        StartSensor();
+
     }
 
     public void Stop()
     {
-        if(program!=null)
-            program.Abort();
         for (int i = 0; i < motors.Length; i++)
         {
             motors[i].powerMotor = 0;
@@ -183,46 +118,86 @@ public class Robot : MonoBehaviour, IObjectDimensions {
 		GetComponent<Rigidbody>().centerOfMass += centerOfMassOffset;
 	}
 
-
-	private void Update() {
-
-        if (manualControl) {
-			float stright = Input.GetAxis("X");
-			float right = Input.GetAxis("C");
-			float left = Input.GetAxis("Z");
-            Code(stright, right, left);
-
-
+    private void ManualControl()
+    {
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        Debug.Log("Vertical" + vertical);
+        Debug.Log("Horizontal: " + horizontal);
+        if (vertical == 0)
+        {
+            if (horizontal > 0)
+            {
+                motors[1].powerMotor = -20f;
+                motors[0].powerMotor = 20f;
+            }
+            else if (horizontal < 0)
+            {
+                motors[1].powerMotor = 20f;
+                motors[0].powerMotor = -20f;
+            }
+            else
+            {
+                motors[1].powerMotor = 0f;
+                motors[0].powerMotor = 0f;
+            }
+        }else if (vertical > 0)
+        {
+            if (horizontal > 0)
+            {
+                motors[1].powerMotor = 20f;
+                motors[0].powerMotor = 10f;
+            }
+            else if (horizontal < 0)
+            {
+                motors[1].powerMotor = 10f;
+                motors[0].powerMotor = 20f;
+            }
+            else
+            {
+                motors[1].powerMotor = 20f;
+                motors[0].powerMotor = 20f;
+            }
         }
-		else if (Simulation.isRunning){
+        else
+        {
+            if (horizontal > 0)
+            {
+                motors[1].powerMotor = -10f;
+                motors[0].powerMotor = -20f;
+            }
+            else if (horizontal < 0)
+            {
+                motors[1].powerMotor = -20f;
+                motors[0].powerMotor = -10f;
+            }
+            else
+            {
+                motors[1].powerMotor = -20f;
+                motors[0].powerMotor = -20f;
+            } 
+        }
+
+
+    }
+
+	protected void Update() {
+
+        if (manualControl)
+        {
+            ManualControl();
+        }
+
+        OnUpdate();
+		 if (Simulation.isRunning){
             foreach (MotorController motor in motors)
             {
                 motor.Run();
             }
         }
-        if(reload)
-        {
-            AutomaticEditPanel_UI.Start_UI();
-            reload = false;
-        }
     }
-
-    private void Code( float stright, float right, float left)
-    {
-        foreach(MotorController motor in motors)
-            {
-            if (stright == 1)
-                motor.powerMotor = 20f;
-            if(right == 1)
-                motors[0].powerMotor = -20f;
-            else if(left == 1)
-                motors[1].powerMotor = -20f;
-        }
-    }
-    public void UnLoadCode()
-    {
-        Assembly.UnsafeLoadFrom(nameWithoutSpace + ".dll");
-    }
+    
+    public virtual void OnUpdate(){}
     private void OnDrawGizmos() {
 
 		Gizmos.color = Color.Lerp(Color.yellow, Color.clear, 0.25f);
@@ -233,10 +208,4 @@ public class Robot : MonoBehaviour, IObjectDimensions {
 		}
 		
 	}
-	
-    internal void ShowVariables()
-    {
-        textVariables.UpdateVariables();
-        textVariables.UpdateCode();
-    }
 }

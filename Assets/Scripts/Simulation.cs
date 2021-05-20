@@ -46,14 +46,14 @@ public class Simulation : MonoBehaviour {
 	public static State state {get; set;}
 
 
-	public static Robot robotSelected {
+	public static IRobot robotSelected {
 		get { return _robotSelected; }
 		private set {
 		//	if(_robotSelected) _robotSelected.transform.Recycle();
 			_robotSelected = value;
 		}
 	}
-    public static List<Robot> robots 
+    public static List<IRobot> robots 
     {
         get { return _robots; }
         private set
@@ -106,8 +106,8 @@ public class Simulation : MonoBehaviour {
 		}
 	}
 	
-	private static Robot _robotSelected;
-    private static List<Robot> _robots = new List<Robot>();
+	private static IRobot _robotSelected;
+    private static List<IRobot> _robots = new List<IRobot>();
     private static Environment _environment;
 	private static bool _paused;
 	private static float _timeScale = 1f;
@@ -123,7 +123,7 @@ public class Simulation : MonoBehaviour {
 
 	public static void Run() {
 		Debug.Log("Simulation run.");
-		if (state == State.stopped || state == State.starting) {
+		if (state == State.stopped || state == State.starting || state == State.menu) {
 			Time.timeScale = _timeScale;
 			state = State.simulating;
 		}
@@ -179,25 +179,16 @@ public class Simulation : MonoBehaviour {
         state = State.menu;
         namesRobotInSimulation = new List<string>();
         DontDestroyOnLoad(this);
-
-    }
-
-    public static void StartSimulation()
-    {
-        foreach(string robot in namesRobotInSimulation)
+        robots.AddRange(FindObjectsOfType<RobotAgent>());
+        foreach (IRobot robot in robots)
         {
-          Robot robotList = RobotLoader.LoadRobotGameObject(robot).GetComponent<Robot>();
-            if (!robots.Contains(robotList))
-                robots.Add(robotList);
 
+	        robot.StartRobot();
         }
-        if(_environment != null)
-            environment.transform.Spawn();
-        if(robots.Count == 0)
-            robotSelected = robots[0];
+        Run();
     }
-
-   
+	
+	
 
     void Update() {
         if (Input.GetMouseButtonDown(0) && state != State.edit)
@@ -207,44 +198,19 @@ public class Simulation : MonoBehaviour {
             bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo, Mathf.Infinity);
             if (hit)
             {
-                if (hitInfo.transform.GetComponentInParent<Robot>())
+                if (hitInfo.transform.GetComponentInParent<IRobot>() != null)
                 {
-                    Robot robot = hitInfo.transform.GetComponentInParent<Robot>();
+	                IRobot robot = hitInfo.transform.GetComponentInParent<IRobot>();
                     if (robot != robotSelected)
                     {
                         robotSelected = robot;
                         Debug.Log("Robot selected: " + robotSelected.name);
-                        robotSelected.ShowVariables();
                     }
                 }
             }
         }
-        if (state == State.starting)
-        {
-            if (CheckRobots())
-                Pause();
-        } 
     }
-
-
-    bool CheckRobots()
-    {
-        foreach(Robot robot in _robots)
-        {
-            Simulation.robotSelected = robot;
-            if (robot.motors.Length == 0)
-            {
-                Pause();
-                state = State.edit;
-                IndividualEdit.StartIndividualEdit(robot.gameObject);
-                robotSelected = robot;
-                return false;
-            }
-            robot.ShowVariables();
-            robot.StartingRobot();
-        }
-        return true;
-    }
+    
 
     void OnDestroy()
     {

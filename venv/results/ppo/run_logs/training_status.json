@@ -1,0 +1,48 @@
+{
+    "RobotSumo": {
+        "checkpoints": [
+            {
+                "steps": 156957,
+                "file_path": "results\\ppo\\RobotSumo\\RobotSumo-156957.onnx",
+                "reward": -0.8883636109192263,
+                "creation_time": 1611776681.7385623
+            },
+            {
+                "steps": 499953,
+                "file_path": "results\\ppo\\RobotSumo\\RobotSumo-499953.onnx",
+                "reward": -0.39285714285714285,
+                "creation_time": 1611781864.0982282
+            },
+            {
+                "steps": 500017,
+                "file_path": "results\\ppo\\RobotSumo\\RobotSumo-500017.onnx",
+                "reward": -0.39285714285714285,
+                "creation_time": 1611781864.4679267
+            },
+            {
+                "steps": 500017,
+                "file_path": "results\\ppo\\RobotSumo\\RobotSumo-500017.onnx",
+                "reward": null,
+                "creation_time": 1611782317.634738
+            },
+            {
+                "steps": 500017,
+                "file_path": "results\\ppo\\RobotSumo\\RobotSumo-500017.onnx",
+                "reward": null,
+                "creation_time": 1611782453.720292
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500017,
+            "file_path": "results\\ppo\\RobotSumo.onnx",
+            "reward": null,
+            "creation_time": 1611782453.720292
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

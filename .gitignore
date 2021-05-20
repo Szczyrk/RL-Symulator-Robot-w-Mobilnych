@@ -46,3 +46,9 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 [Tt]humbs.db
+
+# ============ #
+# ML    Agents #
+# ============ #
+venv/Lib/
+venv/Scripts/

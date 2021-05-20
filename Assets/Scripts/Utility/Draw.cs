@@ -50,7 +50,7 @@ public class Draw : MonoBehaviour {
 
 
 	public void Line(Vector3 start, Vector3 end, Color color, Space relativeTo = Space.World) {
-        foreach(Robot robot in Simulation.robots)
+        foreach(IRobot robot in Simulation.robots)
 		if (relativeTo == Space.Self && robot != null) {
 			start = robot.transform.TransformPoint(start);
 			end = robot.transform.TransformPoint(end);

@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6177064809566878983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6177064809566878976}
+  m_Layer: 0
+  m_Name: Start Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6177064809566878976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6177064809566878983}
+  m_LocalRotation: {x: -0.019607874, y: 0.70683485, z: 0.70683485, w: 0.019607874}
+  m_LocalPosition: {x: -0.00003, y: 0.00152, z: 0.00065}
+  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.10000001}
+  m_Children: []
+  m_Father: {fileID: 8977120477411032940}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 86.82201, z: 90.00001}
+--- !u!1 &6177064811395079812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6177064811395079813}
+  m_Layer: 0
+  m_Name: Start Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6177064811395079813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6177064811395079812}
+  m_LocalRotation: {x: 0.000000010619727, y: -0.68722534, z: -0.7264443, w: 0.000000010146552}
+  m_LocalPosition: {x: 0, y: 0.00146, z: 0.00063}
+  m_LocalScale: {x: 0.1, y: 0.099999994, z: 0.099999994}
+  m_Children: []
+  m_Father: {fileID: 8977120477620593366}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8977120475691302022
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,36 +995,6 @@ Transform:
   m_Father: {fileID: 8977120476510697383}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8977120476298680021
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8977120476298680018}
-  m_Layer: 0
-  m_Name: Start Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8977120476298680018
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8977120476298680021}
-  m_LocalRotation: {x: -0.019607874, y: 0.70683485, z: 0.70683485, w: 0.019607874}
-  m_LocalPosition: {x: -0.00003, y: 0.00152, z: 0.00065}
-  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.10000001}
-  m_Children: []
-  m_Father: {fileID: 8977120477411032940}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 86.82201, z: 90.00001}
 --- !u!1 &8977120476309554972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,7 +1166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detected: 0
-  direction: {x: -0.10461284, y: 0.030229181, z: -0.10316177}
+  direction: {x: -0.08639949, y: 0.0009388634, z: 0.12261423}
   drawDebug: 1
   FOV: 1
   maxRange: 0.15
@@ -1544,8 +1574,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8977120476510697371}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.097, y: -0.070417434, z: 0.078}
+  m_LocalRotation: {x: 0.0073963553, y: -0.15236303, z: 0.0011338904, w: -0.98829633}
+  m_LocalPosition: {x: 0.022968566, y: -0.071981706, z: 0.17615876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8977120476928910393}
@@ -1608,8 +1638,8 @@ MonoBehaviour:
   stopDistance: 0
   destination: {fileID: 0}
   centerOfMassOffset: {x: 0, y: 0, z: 0}
-  nameWithoutSpace: Robot_Ensamble_Robot_2_v1_7_6
-  code: Robot_Ensamble_Robot_2_v1_7
+  nameWithoutSpace: Robot_Ensamble_Robot_2_v1_6_3
+  code: Robot_Ensamble_Robot_2_v1_6
   motors:
   - {fileID: 8977120476830483563}
   - {fileID: 8977120476866548866}
@@ -1618,8 +1648,6 @@ MonoBehaviour:
   - {fileID: 8977120477411032943}
   - {fileID: 8977120477620593353}
   textVariables: {fileID: 8977120476510697368}
-  startPostion: {x: -0.05643965, y: -0.07088058, z: -0.20132947}
-  startRotation: {x: 0.004279073, y: -0.965878, z: 0.0011922865, w: -0.2589595}
 --- !u!114 &8977120476510697368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2119,7 +2147,7 @@ MonoBehaviour:
   maxWheelTorque: 1.8
   Kp: 0.5
   wheelCollider: {fileID: 8977120476830483560}
-  powerMotor: 0
+  powerMotor: 13
   centerWheel: {x: 0, y: 0, z: 0}
 --- !u!1 &8977120476840168777
 GameObject:
@@ -2361,38 +2389,8 @@ MonoBehaviour:
   maxWheelTorque: 1.8
   Kp: 0.5
   wheelCollider: {fileID: 8977120476866548867}
-  powerMotor: 0
+  powerMotor: -13
   centerWheel: {x: 0, y: 0, z: 0}
---- !u!1 &8977120476885382486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8977120476885382487}
-  m_Layer: 0
-  m_Name: Start Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8977120476885382487
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8977120476885382486}
-  m_LocalRotation: {x: 0.000000010619727, y: -0.68722534, z: -0.7264443, w: 0.000000010146552}
-  m_LocalPosition: {x: 0, y: 0.00146, z: 0.00063}
-  m_LocalScale: {x: 0.1, y: 0.099999994, z: 0.099999994}
-  m_Children: []
-  m_Father: {fileID: 8977120477620593366}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8977120476919796723
 GameObject:
   m_ObjectHideFlags: 0
@@ -3514,7 +3512,7 @@ Transform:
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
-  - {fileID: 8977120476298680018}
+  - {fileID: 6177064809566878976}
   m_Father: {fileID: 8977120477536960514}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3592,12 +3590,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detected: 0
-  direction: {x: 0.10461285, y: -0.030229185, z: 0.10316177}
+  direction: {x: 0.08639952, y: -0.00093886576, z: -0.12261429}
   drawDebug: 1
-  FOV: 1
+  FOV: 10
   maxRange: 0.15
   updateDt: 0.2
-  startLight: {fileID: 8977120476298680018}
+  startLight: {fileID: 6177064809566878976}
 --- !u!1 &8977120477433298658
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,7 +3968,7 @@ Transform:
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
-  - {fileID: 8977120476885382487}
+  - {fileID: 6177064811395079813}
   m_Father: {fileID: 8977120477638688167}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4048,12 +4046,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detected: 0
-  direction: {x: -0.044530705, y: 0.1188302, z: 0.07997752}
+  direction: {x: 0.2811642, y: 0.007811055, z: 0.35126296}
   drawDebug: 1
-  FOV: 1
-  maxRange: 0.15
-  updateDt: 0.2
-  startLight: {fileID: 8977120476885382487}
+  FOV: 10
+  maxRange: 0.45
+  updateDt: 0.01
+  startLight: {fileID: 6177064811395079813}
 --- !u!1 &8977120477638688166
 GameObject:
   m_ObjectHideFlags: 0

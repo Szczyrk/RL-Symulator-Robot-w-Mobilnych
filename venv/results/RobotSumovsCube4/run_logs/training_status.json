@@ -1,0 +1,42 @@
+{
+    "RobotSumovsCube": {
+        "checkpoints": [
+            {
+                "steps": 127857,
+                "file_path": "results\\RobotSumovsCube4\\RobotSumovsCube\\RobotSumovsCube-127857.onnx",
+                "reward": -0.25,
+                "creation_time": 1612125589.4437544
+            },
+            {
+                "steps": 499995,
+                "file_path": "results\\RobotSumovsCube4\\RobotSumovsCube\\RobotSumovsCube-499995.onnx",
+                "reward": -0.6666666666666666,
+                "creation_time": 1612129080.259656
+            },
+            {
+                "steps": 500059,
+                "file_path": "results\\RobotSumovsCube4\\RobotSumovsCube\\RobotSumovsCube-500059.onnx",
+                "reward": -0.6666666666666666,
+                "creation_time": 1612129080.5429113
+            },
+            {
+                "steps": 500059,
+                "file_path": "results\\RobotSumovsCube4\\RobotSumovsCube\\RobotSumovsCube-500059.onnx",
+                "reward": null,
+                "creation_time": 1612164206.3241224
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500059,
+            "file_path": "results\\RobotSumovsCube4\\RobotSumovsCube.onnx",
+            "reward": null,
+            "creation_time": 1612164206.3241224
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

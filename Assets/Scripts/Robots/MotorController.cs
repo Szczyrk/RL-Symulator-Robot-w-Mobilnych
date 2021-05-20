@@ -38,7 +38,7 @@ public class MotorController : MonoBehaviour {
         wheelCollider.motorTorque = Mathf.Clamp(torque, -maxWheelTorque, maxWheelTorque);
 
         if(drawDebug)
-        Debug.DrawRay(wheelCollider.transform.position, transform.forward * powerMotor * 0.1f, Color.magenta);
+        Debug.DrawRay(wheelCollider.transform.position, transform.forward * powerMotor, Color.magenta);
     }
 
     public void CreatMotor(MeshRenderer newGameObject)

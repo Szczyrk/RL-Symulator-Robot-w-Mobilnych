@@ -1,0 +1,30 @@
+{
+    "RobotSumovsCubeFL": {
+        "checkpoints": [
+            {
+                "steps": 499946,
+                "file_path": "results\\RobotSumoVsCubeFL2\\RobotSumovsCubeFL\\RobotSumovsCubeFL-499946.onnx",
+                "reward": 0.5571428675736699,
+                "creation_time": 1621106133.6239226
+            },
+            {
+                "steps": 500010,
+                "file_path": "results\\RobotSumoVsCubeFL2\\RobotSumovsCubeFL\\RobotSumovsCubeFL-500010.onnx",
+                "reward": 0.5571428675736699,
+                "creation_time": 1621106133.8069377
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500010,
+            "file_path": "results\\RobotSumoVsCubeFL2\\RobotSumovsCubeFL.onnx",
+            "reward": 0.5571428675736699,
+            "creation_time": 1621106133.8069377
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

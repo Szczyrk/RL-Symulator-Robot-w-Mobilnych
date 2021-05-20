@@ -1,0 +1,24 @@
+{
+    "RobotSumovsCubeFL": {
+        "checkpoints": [
+            {
+                "steps": 45074,
+                "file_path": "results\\RobotSumoVsCubeFLNew2\\RobotSumovsCubeFL\\RobotSumovsCubeFL-45074.onnx",
+                "reward": 7.681818376887929,
+                "creation_time": 1621531846.921226
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 45074,
+            "file_path": "results\\RobotSumoVsCubeFLNew2\\RobotSumovsCubeFL.onnx",
+            "reward": 7.681818376887929,
+            "creation_time": 1621531846.921226
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

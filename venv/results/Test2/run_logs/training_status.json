@@ -1,0 +1,24 @@
+{
+    "MoveToWin": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\Test2\\MoveToWin\\MoveToWin-0.onnx",
+                "reward": null,
+                "creation_time": 1610705513.574338
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\Test2\\MoveToWin.onnx",
+            "reward": null,
+            "creation_time": 1610705513.574338
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

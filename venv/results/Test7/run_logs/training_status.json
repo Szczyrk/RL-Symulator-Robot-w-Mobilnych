@@ -1,0 +1,40 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 1630,
+                "file_path": "results\\Test7\\My Behavior\\My Behavior-1630.onnx",
+                "reward": -0.125,
+                "creation_time": 1610707655.245831
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1630,
+            "file_path": "results\\Test7\\My Behavior.onnx",
+            "reward": -0.125,
+            "creation_time": 1610707655.245831
+        }
+    },
+    "MoveToWin": {
+        "checkpoints": [
+            {
+                "steps": 1600,
+                "file_path": "results\\Test7\\MoveToWin\\MoveToWin-1600.onnx",
+                "reward": 0.0,
+                "creation_time": 1610707655.411388
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1600,
+            "file_path": "results\\Test7\\MoveToWin.onnx",
+            "reward": 0.0,
+            "creation_time": 1610707655.411388
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

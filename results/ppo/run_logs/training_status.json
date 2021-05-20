@@ -1,0 +1,88 @@
+{
+    "RobotSumo2": {
+        "checkpoints": [
+            {
+                "steps": 345683,
+                "file_path": "results\\ppo\\RobotSumo2\\RobotSumo2-345683.onnx",
+                "reward": -1.0,
+                "creation_time": 1611646068.238999
+            },
+            {
+                "steps": 499988,
+                "file_path": "results\\ppo\\RobotSumo2\\RobotSumo2-499988.onnx",
+                "reward": -0.5,
+                "creation_time": 1611648100.252123
+            },
+            {
+                "steps": 500362,
+                "file_path": "results\\ppo\\RobotSumo2\\RobotSumo2-500362.onnx",
+                "reward": -0.42857142857142855,
+                "creation_time": 1611648102.4365559
+            },
+            {
+                "steps": 500362,
+                "file_path": "results\\ppo\\RobotSumo2\\RobotSumo2-500362.onnx",
+                "reward": null,
+                "creation_time": 1611665429.764979
+            },
+            {
+                "steps": 500362,
+                "file_path": "results\\ppo\\RobotSumo2\\RobotSumo2-500362.onnx",
+                "reward": null,
+                "creation_time": 1611665445.7837412
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500362,
+            "file_path": "results\\ppo\\RobotSumo2.onnx",
+            "reward": null,
+            "creation_time": 1611665445.7837412
+        }
+    },
+    "RobotSumo1": {
+        "checkpoints": [
+            {
+                "steps": 345360,
+                "file_path": "results\\ppo\\RobotSumo1\\RobotSumo1-345360.onnx",
+                "reward": -1.0,
+                "creation_time": 1611646068.1063528
+            },
+            {
+                "steps": 499941,
+                "file_path": "results\\ppo\\RobotSumo1\\RobotSumo1-499941.onnx",
+                "reward": -0.6666666666666666,
+                "creation_time": 1611648102.1014414
+            },
+            {
+                "steps": 500069,
+                "file_path": "results\\ppo\\RobotSumo1\\RobotSumo1-500069.onnx",
+                "reward": -0.6666666666666666,
+                "creation_time": 1611648102.550559
+            },
+            {
+                "steps": 500069,
+                "file_path": "results\\ppo\\RobotSumo1\\RobotSumo1-500069.onnx",
+                "reward": null,
+                "creation_time": 1611665429.8547702
+            },
+            {
+                "steps": 500069,
+                "file_path": "results\\ppo\\RobotSumo1\\RobotSumo1-500069.onnx",
+                "reward": null,
+                "creation_time": 1611665445.863037
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500069,
+            "file_path": "results\\ppo\\RobotSumo1.onnx",
+            "reward": null,
+            "creation_time": 1611665445.863037
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

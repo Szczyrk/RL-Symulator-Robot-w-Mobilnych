@@ -11,7 +11,7 @@ public class UI_SimulaitonControl : MonoBehaviour
 
     public void Pause()
     {
-        foreach (Robot robot in Simulation.robots)
+        foreach (IRobot robot in Simulation.robots)
         {
 
             robot.Stop();
@@ -20,7 +20,7 @@ public class UI_SimulaitonControl : MonoBehaviour
     }
     public void Run()
     {
-        foreach (Robot robot in Simulation.robots)
+        foreach (IRobot robot in Simulation.robots)
         {
 
                 robot.StartRobot();
@@ -29,10 +29,9 @@ public class UI_SimulaitonControl : MonoBehaviour
     }
     public void Reset()
     {
-        foreach(Robot robot in Simulation.robots)
+        foreach(IRobot robot in Simulation.robots)
         {
             robot.Reset();
-            robot.GetComponent<Rigidbody>().isKinematic = false;
         }
     }
 

@@ -1,0 +1,64 @@
+{
+    "RobotSumo1": {
+        "checkpoints": [
+            {
+                "steps": 47614,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo2\\RobotSumo1\\RobotSumo1-47614.onnx",
+                "reward": -0.3210852702920751,
+                "creation_time": 1611838090.7258961
+            },
+            {
+                "steps": 499976,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo2\\RobotSumo1\\RobotSumo1-499976.onnx",
+                "reward": 1.2099999636411667,
+                "creation_time": 1611846240.2401218
+            },
+            {
+                "steps": 500040,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo2\\RobotSumo1\\RobotSumo1-500040.onnx",
+                "reward": 1.2099999636411667,
+                "creation_time": 1611846240.7307417
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500040,
+            "file_path": "results\\MLAgentVsMLAgentRobotSumo2\\RobotSumo1.onnx",
+            "reward": 1.2099999636411667,
+            "creation_time": 1611846240.7307417
+        }
+    },
+    "RobotSumo2": {
+        "checkpoints": [
+            {
+                "steps": 47614,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo2\\RobotSumo2\\RobotSumo2-47614.onnx",
+                "reward": -0.5921705500908601,
+                "creation_time": 1611838090.890501
+            },
+            {
+                "steps": 499976,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo2\\RobotSumo2\\RobotSumo2-499976.onnx",
+                "reward": 9.949998676776886,
+                "creation_time": 1611846240.4435759
+            },
+            {
+                "steps": 500040,
+                "file_path": "results\\MLAgentVsMLAgentRobotSumo2\\RobotSumo2\\RobotSumo2-500040.onnx",
+                "reward": 9.949998676776886,
+                "creation_time": 1611846240.617883
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500040,
+            "file_path": "results\\MLAgentVsMLAgentRobotSumo2\\RobotSumo2.onnx",
+            "reward": 9.949998676776886,
+            "creation_time": 1611846240.617883
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

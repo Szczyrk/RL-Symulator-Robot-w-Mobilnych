@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ReflectionSensor : Sensor
 {
+    private float proximity, check;
     public override void Enable()
     {
         scanning = true;
@@ -21,10 +22,10 @@ public class ReflectionSensor : Sensor
     {
         while (scanning)
         {
-            float proximity = maxRange;
+            proximity = maxRange;
             Quaternion rotation = Quaternion.Euler(new Vector3(0, 1, 0));
             Vector3 direction = rotation * startLight.forward;
-            float check = Cast(direction);
+            check = Cast(direction);
             if (check < proximity) proximity = check;
             direction = startLight.forward * proximity;
             distance = proximity;

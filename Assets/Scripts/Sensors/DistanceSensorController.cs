@@ -4,6 +4,7 @@ using System.Collections;
 public class DistanceSensorController : Sensor
 {
     public float FOV = 20.1f;
+    private float proximity, check;
 
     public void CreatStartLight()
     {
@@ -48,12 +49,12 @@ public class DistanceSensorController : Sensor
     {
         while (scanning)
         {
-            float proximity = maxRange;
+            proximity = maxRange;
             for (float a = -FOV; a < FOV; a += 0.5f)
             {
                 Quaternion rotation = Quaternion.Euler(new Vector3(0, a, 0));
                 Vector3 direction = rotation * startLight.forward;
-                float check = Cast(direction);
+                check = Cast(direction);
                 if (check < proximity) proximity = check;
             }
 

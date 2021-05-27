@@ -45,7 +45,7 @@ public class RobotAgent : Agent, IRobot
 	public void Reset() {
         transform.localPosition = new Vector3(startPostion.x + UnityEngine.Random.Range(-0.25f,0.25f),startPostion.y, startPostion.z + UnityEngine.Random.Range(-0.25f,0.25f));
         transform.localRotation = startRotation;
-        
+
         if (rigidbody != null)
         {
             rigidbody.velocity = Vector3.zero;
@@ -70,8 +70,8 @@ public class RobotAgent : Agent, IRobot
         }
         sensors = GetComponentsInChildren<Sensor>();
         rigidbody = GetComponent<Rigidbody>();
-        if(!Simulation.robots.Contains(this))
-            Simulation.robots.Add(this);
+        /*if(!Simulation.robots.Contains(this))
+            Simulation.robots.Add(this);*/
     }
     
     

@@ -2,17 +2,23 @@
     "RobotSumovsCubeWL": {
         "checkpoints": [
             {
-                "steps": 105982,
-                "file_path": "results\\RobotSumoVsCubeWL\\RobotSumovsCubeWL\\RobotSumovsCubeWL-105982.onnx",
-                "reward": -0.29999999950329465,
-                "creation_time": 1621537677.8105414
+                "steps": 499974,
+                "file_path": "results\\RobotSumoVsCubeWL\\RobotSumovsCubeWL\\RobotSumovsCubeWL-499974.onnx",
+                "reward": -0.20909090611067685,
+                "creation_time": 1621621758.54994
+            },
+            {
+                "steps": 500038,
+                "file_path": "results\\RobotSumoVsCubeWL\\RobotSumovsCubeWL\\RobotSumovsCubeWL-500038.onnx",
+                "reward": -0.20909090611067685,
+                "creation_time": 1621621758.785427
             }
         ],
         "final_checkpoint": {
-            "steps": 105982,
+            "steps": 500038,
             "file_path": "results\\RobotSumoVsCubeWL\\RobotSumovsCubeWL.onnx",
-            "reward": -0.29999999950329465,
-            "creation_time": 1621537677.8105414
+            "reward": -0.20909090611067685,
+            "creation_time": 1621621758.785427
         }
     },
     "metadata": {

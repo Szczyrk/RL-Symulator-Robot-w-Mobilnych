@@ -15,9 +15,10 @@ public class CSVParser
     public CSVParser(List<string> data)
     {
 #if UNITY_EDITOR
-        pathCSV = getPath() + "/Data/" + SceneManager.GetActiveScene().name + "_" + DateTime.Now.ToString("yyyy_dd_M__HH_mm_ss") + ".csv";
+        pathCSV = getPath() + "/Data/" + SceneManager.GetActiveScene().name + "_" +
+                  DateTime.Now.ToString("yyyy_dd_M__HH_mm_ss") + ".csv";
         File.Create(pathCSV).Close();
-        addData(data);
+        File.AppendAllText(pathCSV, String.Join(fieldSeperator.ToString(), data) + lineSeperater);
 #endif
     }
 
@@ -35,8 +36,33 @@ public class CSVParser
             Debug.Log('\n');
         }
     }
+    
+    private void readData(string[] records)
+    {
+        foreach (string record in records)
+        {
+            string[] fields = record.Split(fieldSeperator);
+            foreach (string field in fields)
+            {
+                Debug.Log(field + "\t");
+            }
+
+            Debug.Log('\n');
+        }
+    }
 
     public void addData(List<string> data)
+    {
+        File.AppendAllText(pathCSV,
+            DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss") + fieldSeperator +
+            String.Join(fieldSeperator.ToString(), data) + lineSeperater);
+#if UNITY_EDITOR
+        UnityEditor.AssetDatabase.Refresh();
+#endif
+        readData(data);
+    }
+    
+    public void addData(string[] data)
     {
         File.AppendAllText(pathCSV,
             DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss") + fieldSeperator +

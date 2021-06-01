@@ -57,7 +57,17 @@ public class RobotSumoAgentCL : RobotAgent
             arrayFuzzy[i] = _classicalLogic.Fuzzy(sensors[i].distance);
             sensor.AddObservation(arrayFuzzy[i]);
         }
+        
+    }
 
+    public override void OnActionReceived(ActionBuffers actions)
+    {
+        base.OnActionReceived(actions);
+        for (int i = 0; i < motors.Length; i++)
+        {
+            motors[i].powerMotor = actions.ContinuousActions[i] * 30f;
+        }
+        
         int tmp = 0;
         if (arrayFuzzy[2] < 3 && arrayFuzzy[3] == 3 && arrayFuzzy[4] == 3 && motors[1].powerMotor > 20f)
         {
@@ -77,16 +87,7 @@ public class RobotSumoAgentCL : RobotAgent
         }
         if (IsDebug)
             Debug.Log(tmp + " " + name + " " + String.Join(", ", arrayFuzzy) + " " +
-                  String.Join(", ", motors.Select(m => m.powerMotor)));
-    }
-
-    public override void OnActionReceived(ActionBuffers actions)
-    {
-        base.OnActionReceived(actions);
-        for (int i = 0; i < motors.Length; i++)
-        {
-            motors[i].powerMotor = actions.ContinuousActions[i] * 30f;
-        }
+                      String.Join(", ", motors.Select(m => m.powerMotor)));
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)

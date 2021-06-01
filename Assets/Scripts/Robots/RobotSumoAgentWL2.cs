@@ -31,14 +31,18 @@ public class RobotSumoAgentWL2 : RobotAgent
     public new void EndEpisode()
     {
         base.EndEpisode();
-        var enenmyRobot = transform.parent.GetComponentsInChildren<RobotAgent>().First(r => r.transform != transform);
-        if (enenmyRobot != null)
+        var enenmyRobot = transform.parent.GetComponentsInChildren<RobotAgent>();
+        if (enenmyRobot.Length > 1)
         {
-            enenmyRobot.AddReward(1f);
-            enenmyRobot.EndEpisode();
+            var en = enenmyRobot.First(r => r.transform != transform);
+            if (en != null)
+            {
+                en.AddReward(1f);
+                en.EndEpisode();
+            }
         }
     }
-    
+
     public override void OnEpisodeBegin()
     {
         base.OnEpisodeBegin();

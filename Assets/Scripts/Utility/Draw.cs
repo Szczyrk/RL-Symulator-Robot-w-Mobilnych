@@ -50,11 +50,11 @@ public class Draw : MonoBehaviour {
 
 
 	public void Line(Vector3 start, Vector3 end, Color color, Space relativeTo = Space.World) {
-        foreach(IRobot robot in Simulation.robots)
+        /*foreach(IRobot robot in Simulation.robots)
 		if (relativeTo == Space.Self && robot != null) {
 			start = robot.transform.TransformPoint(start);
 			end = robot.transform.TransformPoint(end);
-		}
+		}*/
 		gl_lines.Add(new LineData(start, end, color));
 	}
     public void AddCircle(MotorController wheel)

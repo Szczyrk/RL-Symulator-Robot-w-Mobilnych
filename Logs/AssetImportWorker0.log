@@ -15,11 +15,11 @@ C:/Users/szczy/Documents/UnityProjects/Mobile_robot_simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62546
+50091
 Successfully changed project path to: C:/Users/szczy/Documents/UnityProjects/Mobile_robot_simulator
 C:/Users/szczy/Documents/UnityProjects/Mobile_robot_simulator
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,817 +35,237 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003707 seconds.
+Registered in 0.003559 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 37.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.470 seconds
+- Completed reload, in  1.506 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005883 seconds.
+Registered in 0.005820 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 38.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.864 seconds
+- Completed reload, in  1.854 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1608 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.6 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2063.
-Total: 3.258900 ms (FindLiveObjects: 0.286000 ms CreateObjectMapping: 0.173500 ms MarkObjects: 2.729600 ms  DeleteObjects: 0.068700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Robots/RobotSumoAgentVsCubeCL.cs
-  artifactKey: Guid(43384313f585f7841a46b32060eecbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentVsCubeCL.cs using Guid(43384313f585f7841a46b32060eecbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056b8ef8ab19f77016c6e6a291bea830') in 0.076553 seconds
-  Import took 0.080927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.209726 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentCL.cs
-  artifactKey: Guid(43384313f585f7841a46b32060eecbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentCL.cs using Guid(43384313f585f7841a46b32060eecbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0d96fd6285d7f7657abbf722ab8387') in 0.010463 seconds
-  Import took 0.014739 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010386 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.740 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.1 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2065.
-Total: 3.615100 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.108200 ms MarkObjects: 3.186900 ms  DeleteObjects: 0.027100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.965247 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentVFL.cs
-  artifactKey: Guid(78dc3aafd781d8d4c9923f0ffcd92960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentVFL.cs using Guid(78dc3aafd781d8d4c9923f0ffcd92960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b55f7a55beb3f547b0263f818ea91fb') in 0.030332 seconds
-  Import took 0.047979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002849 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentVFL.cs
-  artifactKey: Guid(78dc3aafd781d8d4c9923f0ffcd92960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentVFL.cs using Guid(78dc3aafd781d8d4c9923f0ffcd92960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b55f7a55beb3f547b0263f818ea91fb') in 0.016971 seconds
-  Import took 0.031493 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009251 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.375 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.2 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2067.
-Total: 2.891200 ms (FindLiveObjects: 0.417600 ms CreateObjectMapping: 0.160200 ms MarkObjects: 2.266200 ms  DeleteObjects: 0.043400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.416037 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentFL.cs
-  artifactKey: Guid(78dc3aafd781d8d4c9923f0ffcd92960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentFL.cs using Guid(78dc3aafd781d8d4c9923f0ffcd92960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567d334f95f63adf967fb6a9112f2e94') in 0.023515 seconds
-  Import took 0.030318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.537426 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentVsCubeWL2.cs
-  artifactKey: Guid(c77d8567388aebf40bd599a2bee37f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentVsCubeWL2.cs using Guid(c77d8567388aebf40bd599a2bee37f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca9083928a3811130a59a4a21a4855e') in 0.014332 seconds
-  Import took 0.018966 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017871 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.139 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.0 MB.
-System memory in use after: 101.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2069.
-Total: 3.812200 ms (FindLiveObjects: 0.435400 ms CreateObjectMapping: 0.124800 ms MarkObjects: 3.214300 ms  DeleteObjects: 0.035300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.713942 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentWL.cs
-  artifactKey: Guid(e4e0cd4922a6f564b90ce381a29f0f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentWL.cs using Guid(e4e0cd4922a6f564b90ce381a29f0f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3af565d7f4172c3db850a9a614943db') in 0.013764 seconds
-  Import took 0.021604 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004840 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.337 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.2 MB.
-System memory in use after: 101.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 2.819400 ms (FindLiveObjects: 0.295700 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.415200 ms  DeleteObjects: 0.040700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.078507 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentWL2.cs
-  artifactKey: Guid(c77d8567388aebf40bd599a2bee37f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentWL2.cs using Guid(c77d8567388aebf40bd599a2bee37f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c50f71c2908d7ce92c9d2cfad70e54') in 0.017847 seconds
-  Import took 0.022679 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005430 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.253 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.9 MB.
 System memory in use after: 101.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2073.
-Total: 4.272600 ms (FindLiveObjects: 0.423500 ms CreateObjectMapping: 0.132000 ms MarkObjects: 3.671700 ms  DeleteObjects: 0.043500 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2064.
+Total: 3.197200 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.817100 ms  DeleteObjects: 0.071600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.396499 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentCL.cs
-  artifactKey: Guid(43384313f585f7841a46b32060eecbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentCL.cs using Guid(43384313f585f7841a46b32060eecbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba9e91bde671dacf5c34e4b68920f85') in 0.014807 seconds
-  Import took 0.019739 seconds .
+  path: Assets/Scenes/WLRobotSumo 1.unity
+  artifactKey: Guid(33e76859e9f349b449ebddfa501c1ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WLRobotSumo 1.unity using Guid(33e76859e9f349b449ebddfa501c1ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33a779d924f684e9476c4cd07a8388f') in 0.023031 seconds
+  Import took 0.027187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.831681 seconds.
+  path: Assets/Scenes/WLRobotSumoLSTM.unity
+  artifactKey: Guid(33e76859e9f349b449ebddfa501c1ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WLRobotSumoLSTM.unity using Guid(33e76859e9f349b449ebddfa501c1ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab539a44cb43878eba97d23897e259a4') in 0.011625 seconds
+  Import took 0.017497 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006311 seconds.
+Registered in 0.008476 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.2 MB.
-System memory in use after: 101.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2075.
-Total: 2.799600 ms (FindLiveObjects: 0.339000 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.282500 ms  DeleteObjects: 0.084500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.314232 seconds.
-  path: Assets/Scripts/Robots/RobotSumoAgentWL.cs
-  artifactKey: Guid(e4e0cd4922a6f564b90ce381a29f0f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Robots/RobotSumoAgentWL.cs using Guid(e4e0cd4922a6f564b90ce381a29f0f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cecadcfa61a275cd9330c5a455525a9') in 0.010636 seconds
-  Import took 0.014786 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007920 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.328 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.9 MB.
-System memory in use after: 101.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2077.
-Total: 3.182700 ms (FindLiveObjects: 0.295300 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.760000 ms  DeleteObjects: 0.066100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2577.924606 seconds.
-  path: Assets/Scripts/Research/RecordFight.cs
-  artifactKey: Guid(711f8a3b80e114f4abcb25fbeed84db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Research/RecordFight.cs using Guid(711f8a3b80e114f4abcb25fbeed84db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48915a99c1a11daf0c54becdd77ac215') in 0.037596 seconds
-  Import took 0.057242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.004269 seconds.
-  path: Assets/Scripts/Research/ResearchDataSumoSave.cs
-  artifactKey: Guid(c6295d093af23c44d8e9906e5595336d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Research/ResearchDataSumoSave.cs using Guid(c6295d093af23c44d8e9906e5595336d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6924835c6fe0ba27710b9cf86331ac') in 0.022440 seconds
-  Import took 0.031416 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006854 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.2 MB.
-System memory in use after: 101.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2079.
-Total: 2.813500 ms (FindLiveObjects: 0.221100 ms CreateObjectMapping: 0.070000 ms MarkObjects: 2.480100 ms  DeleteObjects: 0.041300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.757557 seconds.
-  path: Assets/Scenes/WLvsCLRobotSumo1.unity
-  artifactKey: Guid(fa04dc795181da84e82a7d5586d87f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/WLvsCLRobotSumo1.unity using Guid(fa04dc795181da84e82a7d5586d87f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305abae3aec48c15b5bd6622585e4e1c') in 0.044005 seconds
-  Import took 0.047950 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005012 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.514 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.8 MB.
-System memory in use after: 100.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2081.
-Total: 3.128300 ms (FindLiveObjects: 0.348000 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.597900 ms  DeleteObjects: 0.037700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 215.807763 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_26_5__17_10_33.csv
-  artifactKey: Guid(29c130c1b0bf90046a1dd49c9c42c8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_26_5__17_10_33.csv using Guid(29c130c1b0bf90046a1dd49c9c42c8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635ac32ef4cce8d63b0d8c87eb1cf4c9') in 0.043051 seconds
-  Import took 0.046316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.122776 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__10_59_13.csv
-  artifactKey: Guid(f5e7e97554df849488d254472d93c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__10_59_13.csv using Guid(f5e7e97554df849488d254472d93c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d6da634ab3687056a368fecd7ba8d3') in 0.015961 seconds
-  Import took 0.021094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.763302 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_26_5__17_13_11.csv
-  artifactKey: Guid(e2978895b5708bd4a993277edc3b873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_26_5__17_13_11.csv using Guid(e2978895b5708bd4a993277edc3b873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32f21ddd830299d7dbc1d46a3b8750c') in 0.011300 seconds
-  Import took 0.015321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.558540 seconds.
-  path: Assets/Data/2NFRobotSumo_2021_12_5__19_54_09.csv
-  artifactKey: Guid(13fbc4b6e7a51a04fa16486f9a22083e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/2NFRobotSumo_2021_12_5__19_54_09.csv using Guid(13fbc4b6e7a51a04fa16486f9a22083e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025c512904127fad903543b2f9d0362b') in 0.011350 seconds
-  Import took 0.015637 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005173 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.438 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.2 MB.
-System memory in use after: 101.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2083.
-Total: 4.257000 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.136900 ms MarkObjects: 3.721300 ms  DeleteObjects: 0.040400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004832 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.516 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.3 MB.
-System memory in use after: 101.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2085.
-Total: 3.121700 ms (FindLiveObjects: 0.306400 ms CreateObjectMapping: 0.109300 ms MarkObjects: 2.677300 ms  DeleteObjects: 0.027100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005382 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.495 seconds
+- Completed reload, in  2.201 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.2 MB.
-System memory in use after: 101.3 MB.
+Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2087.
-Total: 3.826800 ms (FindLiveObjects: 0.516600 ms CreateObjectMapping: 0.250100 ms MarkObjects: 3.025500 ms  DeleteObjects: 0.026100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 859.025248 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__11_14_20.csv
-  artifactKey: Guid(09d15a63bd72eeb4dbc191ce12736e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__11_14_20.csv using Guid(09d15a63bd72eeb4dbc191ce12736e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf82914912542080f2f4ab5f6ca60c9') in 0.022614 seconds
-  Import took 0.026205 seconds .
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 5.106300 ms (FindLiveObjects: 0.691400 ms CreateObjectMapping: 0.256900 ms MarkObjects: 4.125600 ms  DeleteObjects: 0.030300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.646494 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__11_14_55.csv
-  artifactKey: Guid(2742e8a51a69a9448ace7f914385ff29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__11_14_55.csv using Guid(2742e8a51a69a9448ace7f914385ff29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30ac1c4a83f77a5e8267020c833b70d') in 0.011269 seconds
-  Import took 0.015251 seconds .
+  Time since last request: 3162.613762 seconds.
+  path: Assets/Scenes/WLRobotSumoLSTM.unity
+  artifactKey: Guid(33e76859e9f349b449ebddfa501c1ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WLRobotSumoLSTM.unity using Guid(33e76859e9f349b449ebddfa501c1ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2312953515bbb342ac93199719c2be28') in 0.021581 seconds
+  Import took 0.027844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.290171 seconds.
+  path: Assets/Scenes/WLRobotSumo2 1.unity
+  artifactKey: Guid(fc27f222d03be664a971b9067a4892d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WLRobotSumo2 1.unity using Guid(fc27f222d03be664a971b9067a4892d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c02ecdc664442f062aada2a09f8b48') in 0.015768 seconds
+  Import took 0.019908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.899972 seconds.
+  path: Assets/Scenes/WLRobotSumo2LSTM.unity
+  artifactKey: Guid(fc27f222d03be664a971b9067a4892d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WLRobotSumo2LSTM.unity using Guid(fc27f222d03be664a971b9067a4892d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02dc6cd0d01eedc780b0715adc0d49d') in 0.015377 seconds
+  Import took 0.020241 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005721 seconds.
+Registered in 0.005844 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.530 seconds
+- Completed reload, in  2.557 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 101.3 MB.
 System memory in use after: 101.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2089.
-Total: 3.336600 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.770700 ms  DeleteObjects: 0.072700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.374161 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__11_15_25.csv
-  artifactKey: Guid(89b6f555cbf732148a7fcb33b9f67bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__11_15_25.csv using Guid(89b6f555cbf732148a7fcb33b9f67bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06cb0dbcc7706b8b67c206963121029') in 0.020420 seconds
-  Import took 0.024356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005435 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__11_15_25.csv
-  artifactKey: Guid(89b6f555cbf732148a7fcb33b9f67bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__11_15_25.csv using Guid(89b6f555cbf732148a7fcb33b9f67bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06cb0dbcc7706b8b67c206963121029') in 0.004277 seconds
-  Import took 0.007785 seconds .
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 5.655600 ms (FindLiveObjects: 0.898800 ms CreateObjectMapping: 0.391200 ms MarkObjects: 4.268000 ms  DeleteObjects: 0.093300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004958 seconds.
+Registered in 0.006306 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.548 seconds
+- Completed reload, in  1.529 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.1 MB.
-System memory in use after: 101.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2091.
-Total: 3.583100 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.114000 ms MarkObjects: 2.964100 ms  DeleteObjects: 0.041200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.079855 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__11_16_00.csv
-  artifactKey: Guid(7739dbed3d5b12c44b0181243b8e33da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__11_16_00.csv using Guid(7739dbed3d5b12c44b0181243b8e33da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2be3a715ee18f1f4a247154f4b48fa2') in 0.020786 seconds
-  Import took 0.024084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004476 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__11_16_00.csv
-  artifactKey: Guid(7739dbed3d5b12c44b0181243b8e33da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__11_16_00.csv using Guid(7739dbed3d5b12c44b0181243b8e33da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2be3a715ee18f1f4a247154f4b48fa2') in 0.003822 seconds
-  Import took 0.006962 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006369 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.535 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.3 MB.
-System memory in use after: 101.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2093.
-Total: 2.971900 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.502700 ms  DeleteObjects: 0.025400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.942538 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__11_16_28.csv
-  artifactKey: Guid(f4d6061c933032149902c1942025b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__11_16_28.csv using Guid(f4d6061c933032149902c1942025b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c350a8f8648be893d3a227c809ea5b') in 0.022842 seconds
-  Import took 0.026418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004830 seconds.
-  path: Assets/Data/WLRobotSumo21_2021_27_5__11_16_28.csv
-  artifactKey: Guid(f4d6061c933032149902c1942025b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLRobotSumo21_2021_27_5__11_16_28.csv using Guid(f4d6061c933032149902c1942025b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c350a8f8648be893d3a227c809ea5b') in 0.003693 seconds
-  Import took 0.006946 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005331 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.398 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.0 MB.
-System memory in use after: 101.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2095.
-Total: 3.501300 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.912100 ms  DeleteObjects: 0.074000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 139.764915 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_27_5__11_19_19.csv
-  artifactKey: Guid(742702cc33534614785dcdc671bb0c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_27_5__11_19_19.csv using Guid(742702cc33534614785dcdc671bb0c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2af0be8ad20406fbb89d1e39f155ead') in 0.034984 seconds
-  Import took 0.039076 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005051 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2070.
+Total: 3.769100 ms (FindLiveObjects: 0.627100 ms CreateObjectMapping: 0.070800 ms MarkObjects: 3.048700 ms  DeleteObjects: 0.020800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012212 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.345 seconds
+- Completed reload, in  1.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2072.
+Total: 3.933000 ms (FindLiveObjects: 0.411800 ms CreateObjectMapping: 0.094300 ms MarkObjects: 3.402800 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.357 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.3 MB.
-System memory in use after: 101.4 MB.
+Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.2 MB.
+System memory in use after: 101.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2097.
-Total: 4.656000 ms (FindLiveObjects: 0.578500 ms CreateObjectMapping: 0.457400 ms MarkObjects: 3.558700 ms  DeleteObjects: 0.060200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3213.084318 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_13_08.csv
-  artifactKey: Guid(254e684b609a031439c83a7b4e30a2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_13_08.csv using Guid(254e684b609a031439c83a7b4e30a2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055ac2d110c2430ddc4f03361b77f7d1') in 0.024941 seconds
-  Import took 0.029959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002005 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_13_08.csv
-  artifactKey: Guid(254e684b609a031439c83a7b4e30a2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_13_08.csv using Guid(254e684b609a031439c83a7b4e30a2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055ac2d110c2430ddc4f03361b77f7d1') in 0.005271 seconds
-  Import took 0.009371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.433825 seconds.
-  path: Assets/ResultsML/CLSUMO/AfterCLvsWL
-  artifactKey: Guid(d2808ac298f06b54da640cd8699a89df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ResultsML/CLSUMO/AfterCLvsWL using Guid(d2808ac298f06b54da640cd8699a89df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0536e0d06ab3ef2a9476c9173bbdd0c1') in 0.015433 seconds
-  Import took 0.019975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.420076 seconds.
-  path: Assets/ResultsML/CLSUMO/AfterCLvsWL/RobotSumovsCube.onnx
-  artifactKey: Guid(432ce19864b8e7e4d992c9c096e81e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ResultsML/CLSUMO/AfterCLvsWL/RobotSumovsCube.onnx using Guid(432ce19864b8e7e4d992c9c096e81e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a77ace8c97d88055d3c236ef1c7a39') in 0.065289 seconds
-  Import took 0.069022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.590084 seconds.
-  path: Assets/ResultsML/WLSumo/AfterCLvsWL
-  artifactKey: Guid(331624dc67ba5624ab05d6945bf027ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ResultsML/WLSumo/AfterCLvsWL using Guid(331624dc67ba5624ab05d6945bf027ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aca369a775552a499968e50fa59d4c') in 0.003528 seconds
-  Import took 0.007583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.745352 seconds.
-  path: Assets/ResultsML/WLSumo/AfterCLvsWL/RobotSumoVsCubeWL.onnx
-  artifactKey: Guid(f5c9cf8fd9ef5c24488604e21e73f70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ResultsML/WLSumo/AfterCLvsWL/RobotSumoVsCubeWL.onnx using Guid(f5c9cf8fd9ef5c24488604e21e73f70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebab44f3ee7bd91bca15e30e66f2256') in 0.016266 seconds
-  Import took 0.021228 seconds .
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 3.217600 ms (FindLiveObjects: 0.487200 ms CreateObjectMapping: 0.158700 ms MarkObjects: 2.523700 ms  DeleteObjects: 0.046900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004748 seconds.
+Registered in 0.006993 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.514 seconds
+- Completed reload, in  2.154 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.9 MB.
-System memory in use after: 101.0 MB.
+Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2099.
-Total: 3.504600 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.133400 ms MarkObjects: 3.052200 ms  DeleteObjects: 0.026600 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 4.010400 ms (FindLiveObjects: 0.428500 ms CreateObjectMapping: 0.089100 ms MarkObjects: 3.456700 ms  DeleteObjects: 0.034000 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 98.451923 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_16_11.csv
-  artifactKey: Guid(ebcb743e772b9864091754b8a2780d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_16_11.csv using Guid(ebcb743e772b9864091754b8a2780d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165e11027808d051b0132be25ea3793f') in 0.021959 seconds
-  Import took 0.025467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021301 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_16_11.csv
-  artifactKey: Guid(ebcb743e772b9864091754b8a2780d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_16_11.csv using Guid(ebcb743e772b9864091754b8a2780d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165e11027808d051b0132be25ea3793f') in 0.004593 seconds
-  Import took 0.009404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.169968 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_16_11CL.csv
-  artifactKey: Guid(ebcb743e772b9864091754b8a2780d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_16_11CL.csv using Guid(ebcb743e772b9864091754b8a2780d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98fc7d1a72163eca87a8e89205048c7') in 0.011062 seconds
-  Import took 0.014908 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.438 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.3 MB.
-System memory in use after: 101.5 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2101.
-Total: 2.456700 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.112300 ms MarkObjects: 1.984400 ms  DeleteObjects: 0.038300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.094930 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_17_48.csv
-  artifactKey: Guid(c1a336dcb2209c14ab561c64c1a8ac0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_17_48.csv using Guid(c1a336dcb2209c14ab561c64c1a8ac0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d2e30f73e903e1a3890ab83f40caa5') in 0.029120 seconds
-  Import took 0.033879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.754634 seconds.
-  path: Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_17_48WL.csv
-  artifactKey: Guid(c1a336dcb2209c14ab561c64c1a8ac0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/WLvsCLRobotSumo1_2021_27_5__12_17_48WL.csv using Guid(c1a336dcb2209c14ab561c64c1a8ac0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f723c9bdf87d464ddc28e0682b24f2b8') in 0.012504 seconds
-  Import took 0.016684 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

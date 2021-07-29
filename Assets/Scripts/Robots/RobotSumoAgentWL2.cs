@@ -80,7 +80,7 @@ public class RobotSumoAgentWL2 : RobotAgent
                 }
                 else
                 {
-                    arrayFuzzy[i] = 1;
+                    arrayFuzzy[i] = _maxRange;
                 }
             }
 

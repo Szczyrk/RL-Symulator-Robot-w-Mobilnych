@@ -1,0 +1,30 @@
+{
+    "RobotSumoWL200SD30FOV": {
+        "checkpoints": [
+            {
+                "steps": 499987,
+                "file_path": "results\\RobotSumoWL200SD30FOV\\RobotSumoWL200SD30FOV\\RobotSumoWL200SD30FOV-499987.onnx",
+                "reward": 403.93853165525377,
+                "creation_time": 1623587987.933197
+            },
+            {
+                "steps": 500051,
+                "file_path": "results\\RobotSumoWL200SD30FOV\\RobotSumoWL200SD30FOV\\RobotSumoWL200SD30FOV-500051.onnx",
+                "reward": 403.93853165525377,
+                "creation_time": 1623587988.1391535
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500051,
+            "file_path": "results\\RobotSumoWL200SD30FOV\\RobotSumoWL200SD30FOV.onnx",
+            "reward": 403.93853165525377,
+            "creation_time": 1623587988.1391535
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}

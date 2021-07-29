@@ -6,6 +6,8 @@ TagManager:
   tags:
   - UI
   - SPRITE
+  - robot1
+  - robot2
   layers:
   - Default
   - TransparentFX

@@ -2,17 +2,23 @@
     "RobotSumovsCubeWLLSTM": {
         "checkpoints": [
             {
-                "steps": 273674,
-                "file_path": "results\\RobotSumoWLLSTM\\RobotSumovsCubeWLLSTM\\RobotSumovsCubeWLLSTM-273674.onnx",
-                "reward": 214.49718911810353,
-                "creation_time": 1622495647.54186
+                "steps": 499954,
+                "file_path": "results\\RobotSumoWLLSTM\\RobotSumovsCubeWLLSTM\\RobotSumovsCubeWLLSTM-499954.onnx",
+                "reward": 214.32863197211296,
+                "creation_time": 1622544978.440138
+            },
+            {
+                "steps": 500018,
+                "file_path": "results\\RobotSumoWLLSTM\\RobotSumovsCubeWLLSTM\\RobotSumovsCubeWLLSTM-500018.onnx",
+                "reward": 214.32863197211296,
+                "creation_time": 1622544978.6680875
             }
         ],
         "final_checkpoint": {
-            "steps": 273674,
+            "steps": 500018,
             "file_path": "results\\RobotSumoWLLSTM\\RobotSumovsCubeWLLSTM.onnx",
-            "reward": 214.49718911810353,
-            "creation_time": 1622495647.54186
+            "reward": 214.32863197211296,
+            "creation_time": 1622544978.6680875
         }
     },
     "metadata": {

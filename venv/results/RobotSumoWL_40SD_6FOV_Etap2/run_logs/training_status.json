@@ -1,0 +1,30 @@
+{
+    "RobotSumoWLchangeSensor": {
+        "checkpoints": [
+            {
+                "steps": 499972,
+                "file_path": "results\\RobotSumoWL_40SD_6FOV_Etap2\\RobotSumoWLchangeSensor\\RobotSumoWLchangeSensor-499972.onnx",
+                "reward": 226.96203887462616,
+                "creation_time": 1623230090.8239553
+            },
+            {
+                "steps": 500180,
+                "file_path": "results\\RobotSumoWL_40SD_6FOV_Etap2\\RobotSumoWLchangeSensor\\RobotSumoWLchangeSensor-500180.onnx",
+                "reward": 259.6133605003357,
+                "creation_time": 1623230090.9774165
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500180,
+            "file_path": "results\\RobotSumoWL_40SD_6FOV_Etap2\\RobotSumoWLchangeSensor.onnx",
+            "reward": 259.6133605003357,
+            "creation_time": 1623230090.9774165
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cpu",
+        "tensorflow_version": -1
+    }
+}
